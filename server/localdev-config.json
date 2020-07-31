@@ -1,0 +1,20 @@
+{
+  "cloudant_apikey": "1wA3JDgeJ10Hlsrh6ZOSUVvyF2inW3t68DITmvBrdTqe",
+  "cloudant_host": "294922aa-6c21-4937-86ec-512e0d1a5fea-bluemix.cloudantnosqldb.appdomain.cloud",
+  "cloudant_iam_apikey_description": "Auto-generated for key a95606bd-e0ae-405c-b942-191a37f4e05c",
+  "cloudant_iam_apikey_name": "34b3dbf3-d282-460d-9934-9f120e75af7d",
+  "cloudant_iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Writer",
+  "cloudant_iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/a9429ed3ca794140804291d678d6934a::serviceid:ServiceId-d5db756d-5687-4c71-ab21-6a2095a4b47a",
+  "cloudant_password": "0426bee64cba405e5bfea63868f0a2061cd6646c97826c6237c476f128fbb095",
+  "cloudant_port": 443,
+  "cloudant_url": "https://294922aa-6c21-4937-86ec-512e0d1a5fea-bluemix:0426bee64cba405e5bfea63868f0a2061cd6646c97826c6237c476f128fbb095@294922aa-6c21-4937-86ec-512e0d1a5fea-bluemix.cloudantnosqldb.appdomain.cloud",
+  "cloudant_username": "294922aa-6c21-4937-86ec-512e0d1a5fea-bluemix",
+  "iotPlatform_apiKey": "a-3dkm58-cf99fezvqf",
+  "iotPlatform_apiToken": "*&wyYPsVmBmiW7z_be",
+  "iotPlatform_http_host": "3dkm58.internetofthings.ibmcloud.com",
+  "iotPlatform_iotCredentialsIdentifier": "a2g6k39sl6r5",
+  "iotPlatform_mqtt_host": "3dkm58.messaging.internetofthings.ibmcloud.com",
+  "iotPlatform_mqtt_s_port": 8883,
+  "iotPlatform_mqtt_u_port": 1883,
+  "iotPlatform_org": "3dkm58"
+}
