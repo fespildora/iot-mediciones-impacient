@@ -45,16 +45,18 @@ python app.py
 6. APP > Generate API Key > Select "Standart Application" > Generate Key
 7. Copy API Key and Token.
 8. Add API KEY in simulator.json
-
+```
 "APIKey": ""
-
+```
 9. Create file "application.yaml"
 
+```
 identity:
     appId: 
 auth:
     key: 
     token:
+```
 
 10. Settings > Activate Last Event Cache 
 
