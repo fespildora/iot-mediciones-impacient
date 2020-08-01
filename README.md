@@ -102,5 +102,5 @@ We're now going to update your local code to point to this database. We'll creat
 python app.py
   ```
 
-  View your app at: http://localhost:8000. Any names you enter into the app will now get added to the database.
+  View your app at: http://localhost:8000/api/mediciones. Any names you enter into the app will now get added to the database.
 
