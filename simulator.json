@@ -1,0 +1,117 @@
+{
+  "deviceTypes": [
+    {
+      "id": "Frecuencia_Respiratoria",
+      "running": true,
+      "events": [
+        {
+          "id": "FrecRespiratoria",
+          "frequency": {
+            "repeat": "1",
+            "every": "minute"
+          },
+          "json": "{\n  \"Frecuencia Respiratoria\": random(10, 30)\n}"
+        }
+      ],
+      "devices": [
+        {
+          "id": "Frecuencia_Respiratoria_1",
+          "generated": true,
+          "running": true
+        }
+      ],
+      "managed": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "Temperatura",
+      "running": true,
+      "events": [
+        {
+          "id": "Temperatura",
+          "frequency": {
+            "repeat": "1",
+            "every": "minute"
+          },
+          "json": "{\n  \"Temperatura\": random(35, 43)\n}\n"
+        }
+      ],
+      "devices": [
+        {
+          "id": "Temperatura_1",
+          "generated": true,
+          "running": true
+        }
+      ],
+      "managed": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "Presion_Arterial",
+      "running": true,
+      "events": [
+        {
+          "id": "Presion_TAD",
+          "frequency": {
+            "repeat": "1",
+            "every": "minute"
+          },
+          "json": "{\n  \"TAD\": random(70, 100)\n}"
+        },
+        {
+          "id": "Presion_TAS",
+          "frequency": {
+            "repeat": "1",
+            "every": "minute"
+          },
+          "json": "{\n  \"TAS\": random(110, 150)\n}\n"
+        }
+      ],
+      "devices": [
+        {
+          "id": "Presion_Arterial_1",
+          "generated": true,
+          "running": true
+        }
+      ],
+      "managed": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "Oximetro",
+      "running": true,
+      "events": [
+        {
+          "id": "Pulsaciones",
+          "frequency": {
+            "repeat": "1",
+            "every": "minute"
+          },
+          "json": "{\n  \"Pulsaciones\": random(40, 140)\n}"
+        },
+        {
+          "id": "Oxigeno_Sangre",
+          "frequency": {
+            "repeat": "1",
+            "every": "minute"
+          },
+          "json": "{\n  \"Oxigeno en Sangre\": random(80, 100)\n}\n"
+        }
+      ],
+      "devices": [
+        {
+          "id": "Oximetro_1",
+          "generated": true,
+          "running": true
+        }
+      ],
+      "managed": {
+        "enabled": false
+      }
+    }
+  ],
+  "APIKey": ""
+}
